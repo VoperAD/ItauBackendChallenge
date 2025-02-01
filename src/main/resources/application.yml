@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ItauChallenge
+
+server:
+  port: 8080
