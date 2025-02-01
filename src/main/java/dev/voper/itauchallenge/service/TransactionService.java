@@ -17,4 +17,8 @@ public class TransactionService {
         TRANSACTIONS.put(UUID.randomUUID(), transactionDto);
     }
 
+    public void deleteTransactions() {
+        TRANSACTIONS.clear();
+    }
+
 }

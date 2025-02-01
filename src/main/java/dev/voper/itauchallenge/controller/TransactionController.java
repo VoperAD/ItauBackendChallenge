@@ -20,4 +20,9 @@ public class TransactionController {
         transactionService.createTransaction(transactionDto);
     }
 
+    @DeleteMapping
+    public void deleteTransactions() {
+        transactionService.deleteTransactions();
+    }
+
 }
